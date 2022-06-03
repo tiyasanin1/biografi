@@ -1,0 +1,105 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+
+body {
+    padding: 0;
+    background: #48416c;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    margin-left: -45px;
+}
+
+i::before {
+    padding: 10px;
+    width: 25px;
+    background-color: #48416c;
+    color: #edc18d;
+
+}
+
+li {
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.main {
+    width: 800px;
+    height: 350px;
+    background-color: #edc18d;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: black 0px 20px 30px -10px;
+}
+
+.img {
+    background-image: url(../image/foto.jpeg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+.content {
+    display: flex;
+    padding-top: 10px;
+    margin: 10px;
+    position: absolute;
+
+}
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+.organitation {
+    background: #efab9c;
+    margin-right: 20px;
+    box-shadow: black 0px 20px 30px -10px;
+    border-radius: 10px;
+
+}
+
+.experience {
+    background: #b79bf2;
+    box-shadow: black 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 499px) {
+    .main {
+        width: 400px;
+        height: 378px;
+        text-align: center;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .organitation {
+        width: 350px;
+        height: 150px;
+
+    }
+
+    .experience {
+        width: 350px;
+        height: 220px;
+    }
+}
